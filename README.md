@@ -48,11 +48,6 @@ InstantLog::log("orange");
 
 
 
-Dependencies
-------------------
-
-- [lingtalfi/Bat 1.29](https://github.com/lingtalfi/Bat)
-
 
 
 History Log
