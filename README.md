@@ -48,6 +48,12 @@ InstantLog::log("orange");
 
 
 
+Related
+------------
+
+- [QuickLog](https://github.com/lingtalfi/QuickLog): simple log system for your app
+- [ApplicationLog class](https://github.com/lingtalfi/ApplicationLog): log for your application
+
 
 
 History Log
