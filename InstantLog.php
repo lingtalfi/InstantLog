@@ -1,10 +1,11 @@
 <?php
 
-namespace Universe;
+namespace InstantLog;
 
 /*
  * LingTalfi 2016-02-01
  */
+
 class InstantLog
 {
 
