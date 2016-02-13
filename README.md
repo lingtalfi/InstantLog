@@ -46,6 +46,14 @@ InstantLog::log("orange");
 ```
 
 
+Note: you can also pass exceptions directly to the instant log:
+
+
+```php
+InstantLog::log(new \Exception("This is ridiculous"));
+```
+
+
 
 
 Related
@@ -56,8 +64,19 @@ Related
 
 
 
+Dependencies
+------------------
+
+- [lingtalfi/Bat 1.30](https://github.com/lingtalfi/Bat)
+
+
+
 History Log
 ------------------
+    
+- 1.1.0 -- 2016-02-13
+
+    - add exception with full message handling
     
 - 1.0.0 -- 2016-02-01
 

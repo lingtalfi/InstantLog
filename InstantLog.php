@@ -6,6 +6,8 @@ namespace InstantLog;
  * LingTalfi 2016-02-01
  */
 
+use Bat\ExceptionTool;
+
 class InstantLog
 {
 
@@ -21,6 +23,9 @@ class InstantLog
 
     public static function log($m)
     {
+        if ($m instanceof \Exception) {
+            $m = ExceptionTool::toString($m);
+        }
         file_put_contents(self::$file, $m . PHP_EOL, FILE_APPEND);
     }
 
