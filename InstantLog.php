@@ -1,12 +1,12 @@
 <?php
 
-namespace InstantLog;
+namespace Ling\InstantLog;
 
 /*
  * LingTalfi 2016-02-01
  */
 
-use Bat\ExceptionTool;
+use Ling\Bat\ExceptionTool;
 
 class InstantLog
 {
